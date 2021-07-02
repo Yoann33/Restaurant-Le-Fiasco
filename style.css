@@ -1,0 +1,161 @@
+*,body
+{
+    border:0;
+    margin:0;
+}
+
+body
+{
+    width:100%;
+}
+
+.h
+{
+    position:absolute;
+    top:0;
+    width:1px;
+    height:5000px;
+}
+
+.container
+{
+    position:absolute;
+    top:0;
+    right:1vw;
+    width:150px;
+    height:1500px;
+}
+
+.reservation
+{
+    position:sticky;
+    top:0;
+    border:1px solid transparent;
+    width:100%;
+}
+
+.reservation img
+{
+    position:absolute;
+    width:50px;
+    top:0.5vw;
+    right:0.5vw;
+}
+
+.reservation img:hover
+{
+    width:60px;
+    top:0.1vw;
+    right:0.1vw;
+    border:2px solid black;
+}
+
+.reservation p
+{
+    color:white;
+}
+
+header
+{
+    overflow: hidden;
+    background-color: gray;
+}
+
+h1
+{
+    margin:1vw;
+}
+
+nav
+{
+    background-color: saddlebrown;
+    text-align: center;
+    margin:1vw;
+}
+
+nav a
+{
+    text-decoration: none;
+    padding:0 3vw;;
+    color:white;
+}
+
+nav a:hover
+{
+    background-color: black;
+}
+
+.restaurant-picture
+{
+    margin:1vw 1vw 2vw 1vw;
+}
+
+.restaurant-picture img
+{
+    display:block;
+    border:0;
+    width:100%;
+}
+
+main
+{
+    overflow:hidden;
+    background-color: lightgray;
+}
+
+main h1
+{
+    margin:3vw 1vw;
+}
+
+p
+{
+    margin:2vw 1vw;
+}
+
+button
+{
+    background-color: rgb(185, 79, 255);
+    margin:0 1vw;
+}
+
+button:hover
+{
+    color:white;
+    background-color: rgb(153, 0, 255);
+}
+
+a img
+{
+    width:2vw;
+    position:fixed;
+    bottom:0;
+    left:50vw;
+    background-color: brown;
+}
+
+img[alt=cafe]
+{
+    width:5vw;
+    float:left;
+    margin:2px 10px 0 1vw;
+}
+
+img[alt=tasse]
+{
+    width:10vw;
+    float:right;
+    margin-top:9vw;
+}
+
+img[alt=croissant]
+{
+    float:left;
+    width:10vw;
+    height:20vw;
+}
+
+.cleaner
+{
+    clear:both;
+}
